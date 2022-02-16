@@ -1,3 +1,3 @@
-// git remote add origin https://github.com/dn2905/test_repository.git
+"use strict";
 let helloName = prompt("What's you name?");
 alert(`Hello, ${helloName}!`);
