@@ -37,9 +37,9 @@ for (let i = 0; i < 2; i++) {
 
 if (personalMovieDB.count < 10) {
   alert("Маловато..");
-} else if (30 < personalMovieDB.count > 10) {
+} else if (30 < personalMovieDB.count >= 10) {
   alert("Вы стандартный зритель");
-} else if (personalMovieDB.count > 30) {
+} else if (personalMovieDB.count >= 30) {
   alert("Да вы киноман!");
 }
 
